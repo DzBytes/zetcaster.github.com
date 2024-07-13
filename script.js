@@ -1,32 +1,3 @@
-/*  
-  Comments here are a work in progress, 
-  check back soon for more :)
-
-  I also have this same code
-  in Github where things are broken up
-  into more files. 
-  
-  https://github.com/ste-vg/spell-caster
-  
-  Right lets do this, we have a lot to 
-  cover! Lets get started with...
-
-  _____                            _       
- |_   _|                          | |      
-   | |  _ __ ___  _ __   ___  _ __| |_ ___ 
-   | | | '_ ` _ \| '_ \ / _ \| '__| __/ __|
-  _| |_| | | | | | |_) | (_) | |  | |_\__ \
- |_____|_| |_| |_| .__/ \___/|_|   \__|___/
-                 | |                       
-                 |_|                       
-
-  GSAP first. We'll use this to do a lot
-  of animations. What's nice about GSAP is
-  it's happy animating almost anything...
-  We'll be animating SVGs, HTML, shaders 
-  and 3D objects!
-*/
-
 import { gsap } from "https://cdn.skypack.dev/gsap"
 import { MotionPathPlugin } from "https://cdn.skypack.dev/gsap/MotionPathPlugin"
 import { Flip } from "https://cdn.skypack.dev/gsap/Flip"
